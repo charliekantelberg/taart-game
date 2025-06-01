@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/taartversierder.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/favicon-cake.png"> <!--favivoon foto van internet-->
+    <title>Taart Versieren Game</title>
+</head>
+<body>
+    <h1 id="titel">Versier je taart</h1>
+    <main>
+        <div>
+        <section class="taart-sectie">
+            <img src="images/taart.png" alt="plaatje van een taart" class="taart" id="taart"> <!--taart ChatGpt gegenereerd. prompt: kan je een taart afbeelding genereren-->
+            <img src="/" alt="/" class="decoratie hidden" id="glazuurOpTaart">
+            <img src="/" alt="/" class="decoratie hidden" id="sprinkelsOpTaart">
+            <img src="/" alt="/" class="decoratie hidden" id="fruitOpTaart">
+        </section>
+         <section class="hidden" id="glazuurOpties">
+            <img src="images/chocoglazuur.png" alt="chocolade glazuur">
+            <img src="images/vanillaglazuur.png" alt="poedersuiker glazuur">
+            <img src="images/rozeglazuur.png" alt="rozekleurige glazuur">
+        </section>
+         <section class="hidden" id="sprinkelsOpties">
+                <img src="images/regenboogsprinkels.png" alt="regenboog sprinkels">
+                <img src="images/chocosprinkels.png" alt="chocolade sprinkels">
+                <img src="images/parelsprinkels.png" alt="parel suiker sprinkels">
+        </section>
+        <section class="hidden" id="fruitOpties">
+            <img src="images/kiwi.png" alt="kiwi">
+            <img src="images/aardbei.png" alt="aardbei">
+            <img src="images/druiven.png" alt="witte druiven">
+        </section>
+         </div>
+        <section class="knoppen">
+            <div>
+                <button id="glazuurButton">Glazuur</button>
+                <button id="sprinkelsButton">Sprinkels</button>
+                <button id="fruitButton">Fruit</button>
+            </div>
+        </section>
+        <section class="einde">
+            <button id="klaarKnop">Klaar?</button>
+        </section>    
+    </main>
+</body>
+</html>

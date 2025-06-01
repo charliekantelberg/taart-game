@@ -1,0 +1,82 @@
+body {
+  background-image: url(../images/confetti-achtergrond.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1400px 
+}
+
+* {
+    text-align: center;
+}
+
+#titel {
+    color: rgb(231, 34, 158);
+}
+
+button{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.taart{
+    width: 500px;
+    height: auto;
+}
+
+.knoppen, div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#glazuurOpties img,
+#sprinkelsOpties img,
+#fruitOpties img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+#glazuurOpties:not(.hidden),
+#fruitOpties:not(.hidden),
+#sprinkelsOpties:not(.hidden) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.taart-sectie {
+    position: relative;
+    display: inline-block;
+}
+
+.taart-sectie, img.taart {
+    display: flex;
+    justify-content: center;
+}
+
+.decoratie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.einde {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+#klaarKnop {
+    border: 3px solid rgb(231, 34, 158);
+    padding: 18px;
+}
+
